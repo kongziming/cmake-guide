@@ -1,0 +1,31 @@
+.sidebar::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+.extra-class>pre::-webkit-scrollbar {
+    width: 6px;
+    height: 8px;
+}
+.sidebar::-webkit-scrollbar-track {
+    background: none;
+    border-width: 0px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.16);
+    border-radius: 2px;
+    transition: background 250ms ease 0s;
+}
+.extra-class>pre::-webkit-scrollbar-thumb {
+    background: #6f8adb;
+    border-radius: 3px;
+}
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.36);
+}
+.extra-class>pre::-webkit-scrollbar-thumb:hover {
+    background: #4e73df;
+}
+
+.custom-block.tip, .custom-block.warning, .custom-block.danger {
+    border-left-width: 0.3rem;
+}
