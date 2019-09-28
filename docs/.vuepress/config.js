@@ -26,7 +26,7 @@ module.exports = {
     ],
     sidebar: {
       "/intro/": [
-        ["cmake", "CMake简介"]
+        ["", "CMake简介"]
       ],
       "/guide/": [
         ["", "基本规则"],
