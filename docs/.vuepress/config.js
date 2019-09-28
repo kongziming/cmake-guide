@@ -37,5 +37,5 @@ module.exports = {
     }
   },
   plugins: ["@vuepress/back-to-top"],
-  base: "/cmake/"
+  base: "/cmake-guide/"
 };
