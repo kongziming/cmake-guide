@@ -56,7 +56,7 @@ message("第一个CMake教程")
 
 ### 3.构建工程
 
-![1](/1.gif)
+<img :src="$withBase('/1.gif')" alt="foo">
 
 通过**cmake-gui**工具，**Configure**和**Generate**之后，即可生成VS工程。打开工程进行编译，得到SimpleCalculator.exe可执行文件。
 
